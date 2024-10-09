@@ -10,8 +10,8 @@ experienceLevel:
 
 jobTypes:
   full-time: true
-  contract: false
-  part-time: false
+  contract: true
+  part-time: true
   temporary: true
   internship: false
   other: false
@@ -20,13 +20,25 @@ jobTypes:
 date:
   all time: false
   month: false
-  week: false
+  week: true
   24 hours: true
 
 positions:
-  - Software engineer
+  - front-end
+  - Front-end-engineer
+  - front end engineer
+  - Front End Engineer
 
 locations:
+  - Singapore
+  - Australia
+  - New Zealand
+  - United States
+  - America
+  - Canada
+  - United Kingdom
+  - British
+  - Netherlands
   - Germany
 
 apply_once_at_company: true
@@ -35,11 +47,9 @@ distance: 100
 
 company_blacklist:
   - wayfair
-  - Crossover
 
 title_blacklist:
   - word1
-  - word2
 
 job_applicants_threshold:
   min_applicants: 0
